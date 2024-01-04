@@ -19,3 +19,11 @@
 - Now go into the project properties, select "C/C++", then "Precompiled Headers", then select "Use (/Yu)" from "Precompiled Header".
 - Next type "pch.h" in the "Precompiled Header File" slot, then press "Apply" and "Ok".
 - Now the game can be run!
+
+## Future Plans & Additions
+- Incorporate explosive animations upon enemy/player death.
+- Incorporate SFX for both enemy and player.
+- Incorporate enemy bullets.
+- Incorporate level design/boss fights with different backgrounds (scrolling instead of static).
+- Incorporate enemies of different size, health, and point values.
+- Incorporate a menu system. (Pause, Exit, Save, ect).
