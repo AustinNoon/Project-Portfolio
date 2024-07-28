@@ -100,9 +100,11 @@ void BudgetWindow::run() {
     while (window.isOpen()) {
         sf::Event event;
         while (window.pollEvent(event)) {
+            //close window
             if (event.type == sf::Event::Closed)
                 window.close();
-
+            
+            //if left mouse button pressed get the position of the mouse
             if (event.type == sf::Event::MouseButtonPressed) {
                 if (event.mouseButton.button == sf::Mouse::Left) {
                     sf::Vector2i mousePosition = sf::Mouse::getPosition(window);
