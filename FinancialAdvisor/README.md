@@ -14,7 +14,7 @@
 - Hit the "Apply" button, then press the "Ok" button.
 
 ## Necessary Fonts
--Note that in order to run this app you must have a folder named "Fonts" within your folder containing your .vcxproj files. I specifically used "MagnisaSans-Regular.ttf" for this project, as well as "QuickMoney.ttf".
+- Note that in order to run this app you must have a folder named "Fonts" within your folder containing your .vcxproj files. I specifically used "MagnisaSans-Regular.ttf" for this project, as well as "QuickMoney.ttf".
 
 ## Setting up the Precompiled Header
 - In the solution explorer in Visual Studio, right click on the "pch.cpp" file, and select properties.
