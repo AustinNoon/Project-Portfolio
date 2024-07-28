@@ -13,6 +13,9 @@
 - Switch the configuration type to "Debug" and repeat the current step, adding "-d" to each lib file, like this: "sfml-window-d.lib, sfml-graphics-d.lib, sfml-audio-d.lib, sfml-system-d.lib, sfml-network-d.lib".
 - Hit the "Apply" button, then press the "Ok" button.
 
+## Necessary Fonts
+-Note that in order to run this app you must have a folder named "Fonts" within your folder containing your .vcxproj files. I specifically used "MagnisaSans-Regular.ttf" for this project, as well as "QuickMoney.ttf".
+
 ## Setting up the Precompiled Header
 - In the solution explorer in Visual Studio, right click on the "pch.cpp" file, and select properties.
 - Navigate to "C/C++" and then to "Precompiled Headers". In "Precompiled Header" select "Create (/Yc)", and in "Precompiled Header File" type "pch.h".
